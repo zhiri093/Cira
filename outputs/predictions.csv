@@ -1,0 +1,201 @@
+text,model_label,confidence
+A specification of the application's functional and nonfunctional requirements.,0,0.01
+"First, it is anticipated that the SRS will be used by the application designers.",0,0.01
+Designers will use the information recorded here as the basis for creating the application's design.,0,0.01
+"Second, the client for the project, the library manager in our case, is expected to review this document.",0,0.01
+The SRS will serve to establish a basis for agreement between the client and development team about the functionality to be provided by the application.,0,0.01
+The purpose of this software development project is to create a new application called: DLS SYSTEM.,0,0.01
+The client for this project wishes to enter the PC-based internet environment.,0,0.01
+"The Library Management System will be PC-base with a internet, allowing library users to search for books,seminars and library staff members to manage the book inventory and user database.",0,0.01
+The application will be access via a internet on a PC at any place.,0,0.01
+"Library staff will be able to manage library user accounts including remove, change, and add.",0,0.01
+"Library staff will be able to manage the book inventory database including remove, change, and add.",0,0.01
+The application will generate reports for administrative purposes.,0,0.01
+"The application will provide search function on books based on ISBN, subject, title, or author.",0,0.01
+Provide additional flexibility and convenience to the library users.,0,0.01
+Provide better reliability and security of the library information.,0,0.01
+Provide a more productive environment for the library staff member.,0,0.01
+The availability of information at any time in any place.,0,0.01
+"DLS SYSTEM is used for Library Manager, Librarian, and Library User.",0,0.01
+"However, it is possible to exchange data with other system through external interface if required.",0,0.01
+The high level summary of functions in DLSSYSTEM System is described in the following concept map.,0,0.01
+Detail functional requirements will be described in section 3.,0,0.01
+The following table describe general users characteristics that will affect the functionality of the software product.,0,0.01
+"This system is Web based, there will be a need to provide PC Server hardware connected to the internet.",0,0.01
+DLS System can potentially have more than hundreds of users.,0,0.01
+It is unrealistic to provide training for everyone.,0,0.01
+"Therefore, the system should be designed for easy to use, providing help instructions, and appropriate error messages for invalid user inputs.",0,0.01
+Library user is allowed to use the DLSSYSTEM only for searching book records.,0,0.01
+User should never be able to break into the system and to perform any modification.,0,0.01
+The DLSSYSTEM should not have any unscheduled down time during library operation hours.,0,0.01
+Any down time in operation hours has significant impact to the operation and cause inconvenience to everyone in library.,0,0.01
+The following is a list of assumptions and dependencies that would affect Users have basic understanding to PC and Windows and internet.,0,0.01
+There is a method to convert all book records and library user records from the existing system into the DLSSYSTEM.,0,0.01
+"In this section, the users of ""Search Book Record"" are refereed to librarians and patrons (library users).",0,0.01
+Interfaces are a critical class of components within the DML that will provide the means by which users interact with the system.,0,0.01
+"As such, all interfaces should provide easy access to help as well as clearly indicate the current state of the user’s transaction when the user isn’t idle.",0,0.01
+Transaction and error status MUST be displayed within each interface component.,0,0.01
+Cut and paste of text within interfaces and into and out of the interfaces MUST be supported.,0,0.01
+Administrative interfaces will assist Library Staff in building/maintaining collections and controlling access to them.,0,0.01
+"Because of the complexity of the data model, Library Staff will need to be able to edit multiple records simultaneously and create links between them.",0,0.01
+Administrative MUST be able to have multiple records open for editing Administrator MUST be able to create links (references) between records without needing to type in record identifiers.,0,0.01
+Additionally data represented in the administrative interface may be in a differentstate than that stored in the repository.,0,0.01
+"For example, after a record has been edited, but before it has be en “saved” into the repository two versions of the record exist.",0,0.01
+The interface should clearly indicate the state of the locally edited record relative to the version stored in the repository.,0,0.01
+"All editors MUST clearly indicate the state of the edited record (new,saved, and modified/not yet saved).",0,0.01
+"The system shall display the user account information including user ID, last and first name, and user position, privilege.",0,0.01
+"The system shall use a graphic user interface which allows librarians to choice actions including removing, changing and adding user account and account information..",0,0.01
+"Within the system, logging will be used to provide a trail of transactions that have taken place.",0,0.01
+"This might either be for developer debugging purposes, administrative checks on usage, or research on the usability of interfaces.",0,0.01
+Transaction logs MUST be kept for each service provided.,0,0.01
+Sufficiently detailed client session logs MUST be generated to SRS-005.,0,0.01
+The user’s password MUST never be exposed to compromise.,0,0.01
+SRS-006 User session logs stored for usability and other research MUST be anonymous.,0,0.01
+"SRS-008: When download the books, the system shall display the information of the e-book which is just being downloaded including: ISBN, title, location.",0,0.01
+The system shall allow a user to enter his/her data via choose an item via a mouse.,0,0.01
+"SRS-011: Whenever the ""date"" data is needed, it shall be entered only by choose date from a online calendar.",0,0.01
+The system shall allow the user to enter the library card number and ISBN both by typing or scanning.,0,0.01
+"The system shall allow the user to enter book borrowing, recalling data as frequently as required.",0,0.01
+"The system shall allow the user to add or change information in an account including: last name, first name, user ID, user position, user privilege.",0,0.01
+SRS-016: the system shall allow the user to delete an entire account.,0,0.01
+"The system shall allow the user choose language option which the SRS-019: If the search result are a list of books, the system shall allow the user to choose any one of them to see the details.",0,0.01
+"SRS-021: the system shall allow the user to put ""delete"" for a existing e- book and specify the deleting reason.",0,0.01
+The system shall have a report feature that will allow the user to generate a report showing the information of a particular patron.,0,0.01
+"The system shall have a report feature that will allow the user to generate a report showing the information of book purchase information in a period including the book titles, category, the author, the publisher, the price.",0,0.01
+"It also shall give statistic data about the total number of books purchased, the money paid by category.",0,0.01
+"The system shall be generate those reports to the display, a file or a printer which is linked to the system.",0,0.01
+The system shall be installed in a windows-NT network.,0,0.01
+The Patron information report shall be generated by users who have librarian account.,0,0.01
+The book purchase report shall only be generated by managers or users with defined privileges.,0,0.01
+SRS-7: Database update data shall be committed to the database only after the managers have approved.,0,0.01
+The system shall be recovered within 10 minutes if it is down.,0,0.01
+The system shall be recovered without intervention at user terminal if it is down.,0,0.01
+The system shall show appropriate messages at terminal when system is down.,0,0.01
+The system shall have 99% reliability during library operating hours.,0,0.01
+SRS-012: Scheduled down time after library operating hours shall not be more than 1 hour per day.,0,0.01
+The system shall generate error messages when the user attempts to enter invalid data.,0,0.01
+System must be able to extend to store and deliver new content media types.,0,0.01
+SRS-015 System must be able to extend to support synchronization of media based on shared work/item structure.,0,0.01
+System MUST be able to extend to include music thesaurus in later versions.,0,0.01
+System MUST be able to extend support to MMTT components built in later versions.,0,0.01
+System MUST be able to extend to support data sharing between records.,0,0.01
+SRS-019System MUST be able to extend to support more sophisticated bookmaking including additional context (e.g. size and configuration of viewer) and book marking of other record types.,0,0.01
+Instructors will be using the system in collaboration with Concourse to provide access to course materials and content stored within the DML.,0,0.01
+Library Staff will populate the repositories with both metadata records and media content.,0,0.01
+They must necessarily be able to generate and modify metadata and content in records as well as create references between the records.,0,0.01
+Additionally data represented in the administrative interface may be stored in a different database .,0,0.01
+"For example, after a record has been edited, but before it has be en “saved” into main database .",0,0.01
+"The RDB administrator, who will be able to select an existing word or add a new one (hence it is a less controlled list than the Subjects, suggests keywords.",0,0.01
+This document includes the system requirements jointly defined by the project partners.,0,0.01
+"In this document, system requirements defined by the partners are presented.",0,0.01
+System requirements are classified into two categories: funtional and non-functional system requirements.,0,0.01
+"Non-functional system requirements are classified into various categories: accessibility; accuracy; audit, control, and reporting; availability; backup and restore; capacity, current and forecast; certification; compliance; compatibility of software, tools, standards, platform, database; concurrency; configuration management; dependency on deployment; documentation; disaster recovery; efficiency (resource consumption for given load); effectiveness (resulting performance in relation to effort); error handling; exploitability; extensibility (adding features); failure management; interoperability; legal and regulatory; localizability; maintainability; modifiability; network topology; operability; performance/response time; privacy; portability; quality; recoverability; redundancy; reliability (mean time between failures); reporting; resource constraints (processor speed, memory, disk space, network bandwidth, etc.",0,0.01
+System requirements are defined taking into account the user requirements.,0,0.01
+Therefore “D1.1.2 - Use Case Scenarios and Requirements” is used during this task.,0,0.01
+This deliverable wil be used during system design phase.,0,0.01
+The urban spaces are full of stand-alone sensor based installations of different services designed according to their own purpose and requirements.,0,0.01
+"For example, the municipalities provide several services to the citizens: safety and security services of citizens in the streets, traffic management, etc.",0,0.01
+"These services rely mostly on street-implemented infrastructures, such as cameras, sensors, induction loops.",0,0.01
+"In addition, local businesses have their own illumination systems, advertising infrastructure including neon signs, public displays etc.",0,0.01
+They also monitor customer behavior using various sensor systems.,0,0.01
+The INSIST project proposes an integration of these sensor-based systems into a wider perspective.,0,0.01
+"The role of WP1 is to investigate the state-of-the-art and gather the requirements on the smart systems targeted by the INSIST project, and their development flow.",0,0.01
+"The main objective of the second activity (Activity 1.2: System requirements) of WP1 is the definition and the consistency evaluation of the generic INSIST system requirements, taking into account the use cases and user requirements which were determined in the first activity (Activity 1.1: Use case description and user requirements) of WP1 and were provided in the first deliverable (D1.1.2 - Use Case Scenarios and Requirements).",0,0.01
+"To achieve this objective, a set of system requirements for INSIST platform are defined and presented in this document.",0,0.01
+These requirements will meet user requirements and platform’s general requirements.,0,0.01
+System requirement is a requirement at the system level that describes a function or the functions which the system as a whole should fullfill to satisfy the stakeholder needs and requirements.,0,0.01
+"System requirements are expressed in an appropriate combination of textual statements, views, and non-functional requirements.",0,0.01
+"System requirements express the levels of safety, security, reliability which will be necessary [1].",0,0.01
+"Based on this definition, a set of system requirements are defined in WP1, taking into account the user requirements.",0,0.01
+System requirements describe what the system shall do whereas the user requirements (user needs) describe what the user does with the system.,0,0.01
+System requirements are classified as either functional or non-functional (supplemental) requirements in terms of functionality feature of the requirement.,0,0.01
+A functional requirement specifies something that a user needs to perform their work.,0,0.01
+"For example, collecting traffic – related data and processing them is a functional requirement for INSIST project.",0,0.01
+"For example, a system may be required to enter and print cost estimates; this is a functional requirement.",0,0.01
+Non-functional requirements specify all the remaining requirements not covered by the functional requirements.,0,0.01
+The plan for implementing functional requirements will be detailed in the system design phase.,0,0.01
+The plan for implementing non-functional requirements will be detailed in the system architecture phase.,0,0.01
+"System requirements are classified into three categories: (i) general system requirements, (ii) security requirements, (iii) initial capacity requirements.",0,0.01
+"General system requirements are composed of major capabilities, major system conditions, system interfaces, and system user characteristics.",0,0.01
+Major system conditions contain of assumptions and constraints.,0,0.01
+System interfaces describe the dependency and relationship requirements of the system to other enterprise and/or external systems.,0,0.01
+System interfaces include any interface to a future system or one under development.,0,0.01
+"System user characteristics identify each type of user of the system by function, location, and type of device.",0,0.01
+Aggregated number of users should be specified and the nature of their use of the system should be explained.,0,0.01
+Security requirements are related to the security requirements for users of the system.,0,0.01
+Initial capacity requirements should be specified for the system.,0,0.01
+"An initial estimation can be established using current data amounts, planned number of users, and estimated number of services.",0,0.01
+General system acceptance criteria should be specified and agreed upon by the project partners and the potential customers who will be used to accept the final end product.,0,0.01
+Requirement: Performance requirements should be defined.,0,0.01
+Performance requirements should be specified and defined to measure the performance of the INSIST Platform.,0,0.01
+A list of performance criteria of the platform should be defined.,0,0.01
+These performance criteria will be used during the acceptance of the project output.,0,0.01
+The performance of the platform will be measured by using simulation and instrumentation tools.,0,0.01
+Obtained results will be included into performance analysis report of the platform.,0,0.01
+The elapsed time between the request of traffic density at a specific location and the calculation of the value.,0,0.01
+Quality criteria of the UIs of the INSIST Platform should be defined and quality of the UIs should be measured.,0,0.01
+Quality of the UIs of the INSIST Platform should be measured and should meet required quality level.,0,0.01
+"Documentation, complexity, integration, and usability criteria will be considered during the measurement of the UIs.",0,0.01
+Requirement: Software quality attributes should be defined.,0,0.01
+Software quality attributes should be specified and defined to measure the quality of the INSIST Platform.,0,0.01
+The quality charactreistics of the INSIST Platform should be specified.,0,0.01
+These characteristics are the items which can be important to either platform customers or platform developers.,0,0.01
+"The important characteristics include adaptability, availability, reusability, robustness, testability, and usability.",0,0.01
+Requirement: Operating environment should be described.,0,0.01
+Operating environment in which the software will operate should be described.,0,0.01
+"Operating environment requirements include the hardware platform, operating system and versions, and any other software components or applications.",0,0.01
+Requirement: Limitations and contraints should be defined.,0,0.01
+Limitations and contraints should be defined and the platform developers should be informed.,0,0.01
+Any items or issues which will limit the options available to the platform developers should be described.,0,0.01
+Requirement: User documentation should be prepared.,0,0.01
+User documentation should be prepared for all types of the platform users.,0,0.01
+"User documentations include user manuals, on-line help, and tutorials should be prepared.",0,0.01
+All documents should be delivered along with the platform or applications.,0,0.01
+User types of the INSIST Platform and the main characteristics of the users should be defined.,0,0.01
+Requirement: Assumptions and dependencies should be defined.,0,0.01
+Assumptions and dependencies can affect the development process.,0,0.01
+Platform developers and users should be informed about them.,0,0.01
+Assumptions and dependencies which could affect the development of the system should be defined.,0,0.01
+"These could include third-party or commercial components, issues around the development or operating environment, and constraints.",0,0.01
+Requirement: External interface requirements should be defined.,0,0.01
+All interface requirements should be specified and defined.,0,0.01
+"External interface requirements include user interfaces, hardware interfaces, software interfaces, and communication interfaces.",0,0.01
+"User interface requirements such as sample screens, and GUI standards are the logical characteristics of each interface between the platform and the users.",0,0.01
+The logical and physical characteristics of each interface between the platform and the hardware components should be defined.,0,0.01
+Hardware components include the supported device types.,0,0.01
+"Requirements of the hardware interfaces contain required data and control interactions between platform and the hardware, and the communication protocols to be used.",0,0.01
+The connections between the platform and the other used software components should be described.,0,0.01
+"The used software components include databases, operating systems, tools, libraries, and commercial components.",0,0.01
+Name and the versions should be identified in the requirement document.,0,0.01
+The requirements associated with any communications functions required by the INSIST Platform should be described.,0,0.01
+"These communication functions include web browser, network server communications protocols, and so on.",0,0.01
+"The communication standards (such as ftp, http) that will be used should be identified.",0,0.01
+The initial capacity requirements should be specified.,0,0.01
+The initial capacity requirements of the INSIST Platform should be specified.,0,0.01
+"The initial estimation will be established using current test data amounts, planned number of users, and estimated number of transactions.",0,0.01
+"The highest and lowest numbers of the transactions, and processing frequency expected usage will be estimated.",0,0.01
+These will be used for capacity planning for storage and memory requirements for INSIST Platform.,0,0.01
+Two different main user types are defined in INSIST platform.,0,0.01
+Any kind of user type can be chose when setting up your users in the INSIST system.,0,0.01
+"A system user is a person who interacts with the INSIST system, through an interface to define the behaviour of the system and how the end users would interact with the system.",0,0.01
+A maintenance user who has the role of Administrator can access the maintenance console of the INSIST project.,0,0.01
+"A maintenance user can develop applications on th INSIST platform, create / update the database and test the system.",0,0.01
+"A database manager performs the management functionalities, such as creation and maintenance of the database.",0,0.01
+"A database manager has also abilities to back up and restore, attach and detach, create and clone the database.",0,0.01
+A developer can develop new applications or services for the INSIST platform.,0,0.01
+A test user can run the test scenarios on the INSIST platform.,0,0.01
+A data analysis user can access to the INSIST platform to analyze platform data and obtain results.,0,0.01
+System admin user can access to all areas of the INSIST platform.,0,0.01
+B2B users use INSIST Platform for their production and/or service process.,0,0.01
+They need INSIST Platform's functionalities for their operational reasons.,0,0.01
+The overall volume of B2B user's transactions is much higher than the volume of B2C user's transactions.,0,0.01
+B2C users in INSIST Platform are all road users such as pedestrians and drivers.,0,0.01
+A list of abbreviations used in this document is presented below.,0,0.01
+"This chapter is an informative introductory element that gives certain information or commentaries about the purpose of the requirement specification (e.g. that the requirement specification describes services, requirements, inspection and testing conditions that the product to be developed has to fulfil).",0,0.01
+"The foreword must not contain any technical or functional requirements, images or tables.",0,0.01
+Structure: level 1 and level 2 of the VDA component requirement specification structure have to be kept and must not be changed.,0,0.01
+"Expansion of the structure: if supplements are necessary in the implementation of the VDA structure on level 1, in each case these are to be added to the last chapter with content of Module I or Module II (see Module I, chapter 12 and Module II chapter 7).",0,0.01
+"Expansions on level 2 of the VDA structure are to be placed at the end of a respective sub-chapter structure (see e.g. Module I, chapter 2.6).",0,0.01
+"Headlines that are not used may not be deleted on levels 1 and 2 of the Modules I and II, in order to guarantee the transparency and clarity of the component requirement specification contents.",0,0.01
+When referencing an external document it has to be entered here.,0,0.01
+Contents on level 3 are to be preferentially used and have the nature of a recommendation.,0,0.01

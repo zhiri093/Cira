@@ -1,0 +1,21 @@
+text,Causal,model_label,confidence,y_true,y_pred
+A specification of the application's functional and nonfunctional requirements.,0,0,0.65,0,0
+"First, it is anticipated that the SRS will be used by the application designers.",0,0,0.6,0,0
+Designers will use the information recorded here as the basis for creating the application's design.,0,1,0.78,0,1
+"Second, the client for the project, the library manager in our case, is expected to review this document.",0,0,0.85,0,0
+The SRS will serve to establish a basis for agreement between the client and development team about the functionality to be provided by the application.,0,1,0.78,0,1
+The purpose of this software development project is to create a new application called: DLS SYSTEM.,0,1,0.65,0,1
+The client for this project wishes to enter the PC-based internet environment.,0,0,0.65,0,0
+"The Library Management System will be PC-base with a internet, allowing library users to search for books,seminars and library staff members to manage the book inventory and user database.",1,1,0.72,1,1
+The application will be access via a internet on a PC at any place.,0,0,0.55,0,0
+"Library staff will be able to manage library user accounts including remove, change, and add.",0,0,0.82,0,0
+"Library staff will be able to manage the book inventory database including remove, change, and add.",0,0,0.68,0,0
+The application will generate reports for administrative purposes.,0,0,0.65,0,0
+"The application will provide search function on books based on ISBN, subject, title, or author.",0,0,0.66,0,0
+Provide additional flexibility and convenience to the library users.,0,0,0.6,0,0
+Provide better reliability and security of the library information.,0,0,0.6,0,0
+Provide a more productive environment for the library staff member.,0,0,0.6,0,0
+The availability of information at any time in any place.,0,0,0.72,0,0
+"DLS SYSTEM is used for Library Manager, Librarian, and Library User.",1,0,0.9,1,0
+"However, it is possible to exchange data with other system through external interface if required.",1,1,0.7,1,1
+The high level summary of functions in DLSSYSTEM System is described in the following concept map.,0,0,0.62,0,0

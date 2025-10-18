@@ -1,0 +1,21 @@
+text,model_label,confidence
+A specification of the application's functional and nonfunctional requirements.,0,0.65
+"First, it is anticipated that the SRS will be used by the application designers.",0,0.6
+Designers will use the information recorded here as the basis for creating the application's design.,1,0.78
+"Second, the client for the project, the library manager in our case, is expected to review this document.",0,0.85
+The SRS will serve to establish a basis for agreement between the client and development team about the functionality to be provided by the application.,1,0.78
+The purpose of this software development project is to create a new application called: DLS SYSTEM.,1,0.65
+The client for this project wishes to enter the PC-based internet environment.,0,0.65
+"The Library Management System will be PC-base with a internet, allowing library users to search for books,seminars and library staff members to manage the book inventory and user database.",1,0.72
+The application will be access via a internet on a PC at any place.,0,0.55
+"Library staff will be able to manage library user accounts including remove, change, and add.",0,0.82
+"Library staff will be able to manage the book inventory database including remove, change, and add.",0,0.68
+The application will generate reports for administrative purposes.,0,0.65
+"The application will provide search function on books based on ISBN, subject, title, or author.",0,0.66
+Provide additional flexibility and convenience to the library users.,0,0.6
+Provide better reliability and security of the library information.,0,0.6
+Provide a more productive environment for the library staff member.,0,0.6
+The availability of information at any time in any place.,0,0.72
+"DLS SYSTEM is used for Library Manager, Librarian, and Library User.",0,0.9
+"However, it is possible to exchange data with other system through external interface if required.",1,0.7
+The high level summary of functions in DLSSYSTEM System is described in the following concept map.,0,0.62
