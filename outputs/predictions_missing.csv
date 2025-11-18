@@ -1,0 +1,21 @@
+text,model_label,confidence
+The pages will be designed for screen resolution of 800 x 600 pixels as a minimum.,0,0.42
+Each tier in the hierarchy has its own set of requirements which are derived from the next hierarchical tier above.,1,0.72
+Habitable volumes will provide an atmosphere for the crew for all nominal missions.,1,0.78
+Modularity requirements early in design will pay off in life cycle by reducing resupply weight and enabling commonality across modules at the lowest level practical in each system.,1,0.78
+"The Gateway shall allow for safe disposal of the on-orbit Gateway, to preclude the generation of space debris, at the end of its useful life.",1,0.78
+The Gateway shall distribute primary power using two bi-directional power domains to each axial docking port.,0,0.62
+"Robotics is the preferred means of performing maintenance due to the limited availability of the crew; however, early phases of Gateway assembly will be solely reliant on crew for maintenance.",1,0.84
+The purpose of this appendix is to provide guidance in the form of reference documents.,0,0.85
+Its full execution will be postponed and will depend on the EUROCONTROL L-band system development plan and schedule.,1,0.77
+"In addition, the original Globcover bare soil class has been divided into six separate classes, taking the total number of land and inland water classes to 27.",1,0.72
+The LST are calculated at the SSM/I overpassing times (close to 6am and 6pm).,0,0.62
+"LOFT System Measurement of the Radiation Damage from soft protons on the Silicon Drift Detectors, E. Del Monte et al., LOFT System , LOFT_SysN-IrradSoftProtons_20121112..",1,0.78
+"In practice, and for integrity of the wavelength information, a short direct image through the slitless instrument taken periodically with a filter is enough to align the pointing to the RA, Dec catalogue together with the time independent field distortions.",1,0.83
+More process oriented models need less data for input/calibration but more for validation of outputs.,1,0.75
+It is possible to configure the FCI to scan the earth disc in 10 minutes in support of the Full Disc Scanning Service (FDSS) or a quarter of the disc in 2.5mn in support of the Rapid Scanning Service (RSS).,0,0.58
+Definition: This element is an indicator that selected styles or trade items may or may not be re-ordered.,0,0.72
+"Product orientation principles developed by the PTRG will affect the following attributes: width, depth, and height.",1,0.78
+The solution must provide near-real-time analysis as well as functionality.,0,0.78
+RAT: In order for a user to search for a restaurant.,0,0.66
+"The CTS shall remove ISS time-critical cargo from the spacecraft no later than 1 hour after crew egress, post-docking and post-landing at a supported landing site.",1,0.66
